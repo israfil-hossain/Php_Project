@@ -1,0 +1,29 @@
+value="<?php echo $name ?>"
+<br><span style="color:red;"><?php echo $err_name; ?></span></td>
+
+value="<?php echo $email;?>"
+<span style="color:red;"><?php echo $err_email;?> </span></td>
+
+<?php if($gender=="Male") echo "checked" ;?>
+<span style="color:red;"><?php echo $err_gender; ?></span></td>
+
+value="<?php echo $contact;?>"
+<span style="color:red;"><?php echo $err_contact;?></span>
+
+<?php echo $country;?> <br>
+<span style="color:red;"><?php echo $err_country;?></span>
+
+
+<?php echo $city;?>
+<br><span style="color:red;"><?php echo $err_city;?></span>
+
+<?php echo $address;?>
+<br><span style="color:red;"><?php echo $err_address;?></span>
+
+<?php echo $image; ?>
+<br><span style="color:red;"><?php echo $err_image;?></span>
+
+<span style="color:red;"><?php echo $err_pass;?></span>
+<?php echo $pass;?>
+<?php echo $conpass;?>
+<span style="color:red;"><?php echo $err_conpass;?></span>
